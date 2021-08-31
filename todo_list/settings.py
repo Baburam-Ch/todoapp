@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-sbo1(op3n6+xhi+kia!5)z^hksyu6td8jvt36($+$t%^ows^oy'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['baburamtodoapp.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['baburamtodolist.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
